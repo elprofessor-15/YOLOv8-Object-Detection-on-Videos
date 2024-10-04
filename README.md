@@ -22,7 +22,16 @@ Ensure that the input video file is stored locally in the project directory. You
 	2.	Run the Detection:
 The following code in the notebook will detect objects and save the output video with annotations:
 # Load the YOLOv8 model
+
+# Load the YOLOv8 model
 model = torch.hub.load('ultralytics/yolov8', 'yolov8s', pretrained=True)
+
+# Specify input and output video paths
+input_video_path = '/path/to/your/input/video.mp4'
+output_video_path = '/path/to/save/output_video_with_detections.mp4'
+
+# Run detection and save the annotated output video
+process_and_save_video(input_video_path, output_video_path)
 
 # Specify input and output video paths
 input_video_path = '/path/to/your/input/video.mp4'
