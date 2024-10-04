@@ -8,3 +8,7 @@ This repository demonstrates the use of the YOLOv8 model for real-time object de
 	•	A step-by-step guide for setting up and running the model on any video input.
 
 This project showcases the powerful capabilities of YOLOv8 for efficient and accurate object detection in dynamic visual data.
+
+The colab notebook is attactched which includes the implemented.
+
+The sample input and tehir output videos are also attatched to see how well the model performed
